@@ -17,7 +17,7 @@ url_part_1 = 'https://www.trulia.com'
 for i in range(1, 26):
 
     # website
-    website = 'https://www.trulia.com/PA/Philadelphia/' + str(i) + '_p/'
+    website = 'https://www.trulia.com/NY/New_York/' + str(i) + '_p/'
 
     # request
     response = requests.get(website)
