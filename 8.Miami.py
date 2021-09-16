@@ -106,5 +106,5 @@ for i in range(1, 26):
 
 
 df = pd.DataFrame(output)
-df['Location'] = 'Colorado'
-df.to_excel('dataframe_Colorado.xlsx', index=False)
+df['Location'] = 'Miami'
+df.to_excel('dataframe_miami.xlsx', index=False)
